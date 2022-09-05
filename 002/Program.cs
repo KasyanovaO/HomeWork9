@@ -12,9 +12,9 @@ Console.WriteLine("Сумма элементов от M до N");
 Console.WriteLine($"{Sum(M, N)}");
 int Sum(int M, int N)
 {
-    if (M == N)
-        return N;
-    return N + Sum(M, N - 1);
+    if (M == N) return N;
+    else
+        return N + Sum(M, N - 1);
 }
 
 
