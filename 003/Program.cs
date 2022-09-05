@@ -6,7 +6,7 @@ Console.WriteLine("Введите неотрицательное число m");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите неотрицательное число m");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"M={m}, N={n}");
+Console.WriteLine($"m={m}, n={n}");
 Console.WriteLine("Вычисление функции Аккермана");
 Console.WriteLine($"{A(m, n)}");
 int A(int m, int n)
