@@ -12,7 +12,6 @@ int rec(int A, int B)
 {
     if (B == 0) return 1;
     if (B == 1) return A;
-
     else
         return A * rec(A, B - 1);
 }
